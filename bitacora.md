@@ -35,9 +35,23 @@
 - Iniciar Fase 1: Análisis del problema energético
 - Definir instancias objetivo y horarios laborales
 
+## Semana 2 - Fase 1: Análisis del problema energético
+
+**Fecha:**  18 de junio de 2026
+
+
+### Actividades realizadas:
+- Reunión de seguimiento
+- Identificar tipos de instancias cloud 
+- Investigar cómo identificar recursos mediante etiquetas
+- Analizar impacto económico y ambiental del consumo ocioso
+- Estimación inicial de ahorro
+- Recopilar información y estructurar el documento
+
 ---
 
 **Registro de Cambios:**
 | Fecha       | Autor                  | Descripción del cambio                  |
 |-------------|------------------------|-----------------------------------------|
-| 14/06/2026  | René Pérez - Líder    | Creación inicial de la bitácora         |
+| 14/06/2026  | René Pérez - Líder    | Creación inicial de la bitácora          |
+| 18/06/2026  | René Pérez - Líder    | Semana dos de proyecto                   |
