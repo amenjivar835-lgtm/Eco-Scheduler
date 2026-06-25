@@ -54,7 +54,7 @@
 ### Actividades realizadas:
 - Reunión de seguimiento
 - Diseñar arquitectura general 
-- Diseñar la lógica de las funciones (Start/Stop)
+- Diseñar la lógica de las funciones Start/Stop
 - Establecer permisos IAM
 - Definir cómo se medirá el ahorro
 - Crear diagramas de flujo y organizar el documento
