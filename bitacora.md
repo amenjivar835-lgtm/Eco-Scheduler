@@ -39,7 +39,6 @@
 
 **Fecha:**  18 de junio de 2026
 
-
 ### Actividades realizadas:
 - Reunión de seguimiento
 - Identificar tipos de instancias cloud 
@@ -48,10 +47,23 @@
 - Estimación inicial de ahorro
 - Recopilar información y estructurar el documento
 
+## Semana 3 - Fase 1: Diseño de la solución
+
+**Fecha:**  25 de junio de 2026
+
+### Actividades realizadas:
+- Reunión de seguimiento
+- Diseñar arquitectura general 
+- Diseñar lógica de las funciones
+- Establecer permisos IAM
+- Definir cómo se medirá el ahorro
+- Crear diagramas de flujo y organizar el documento
 ---
 
 **Registro de Cambios:**
 | Fecha       | Autor                  | Descripción del cambio                  |
 |-------------|------------------------|-----------------------------------------|
 | 14/06/2026  | René Pérez - Líder    | Creación inicial de la bitácora          |
-| 18/06/2026  | René Pérez - Líder    | Semana dos de proyecto                   |
+| 18/06/2026  | René Pérez - Líder    | Semana dos Análisis del problema         |
+| 25/06/2026  | René Pérez - Líder    | Semana tres Diseño de la solución        |
+
