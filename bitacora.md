@@ -58,6 +58,13 @@
 - Establecer permisos IAM
 - Definir cómo se medirá el ahorro
 - Crear diagramas de flujo y organizar el documento
+
+### Incidencia - Semana 3 Fase 1
+- Segunda ocasión que no finaliza su aporte con el archivo entregable y sin tener respuesta del miembro Carlos Cordova (rol: QA / Documentador Jr.).
+- Se envió comunicación formal por ESIT sin obtener respuesta hasta el momento.
+- El equipo (principalmente el Líder) ha absorbido sus responsabilidades para cumplir con los plazos de la Fase 1.
+- Se registrará esta situación para efectos de evaluación individual.
+
 ---
 
 **Registro de Cambios:**
