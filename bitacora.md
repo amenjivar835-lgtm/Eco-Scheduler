@@ -65,6 +65,20 @@
 - El equipo (principalmente el Líder) ha absorbido sus responsabilidades para cumplir con los plazos de la Fase 1.
 - Se registrará esta situación para efectos de evaluación individual.
 
+## Semana 4 - Fase 2: Implementación de automatización Serveless
+
+**Fecha:**  01 de julio de 2026
+
+### Actividades realizadas:
+- Reunión de seguimiento
+- Crear y configurar cuenta AWS 
+- Configurar permisos IAM y Roles
+- Crear instancias EC2 de prueba
+- Crear estructura completa de carpetas en el repositorio
+- Configurar proyecto local y crear plantillas base de funciones lambda
+- Preparar hoja de cálculo para registros de costos y ahorro
+
+
 ---
 
 **Registro de Cambios:**
@@ -73,4 +87,7 @@
 | 14/06/2026  | René Pérez - Líder    | Creación inicial de la bitácora          |
 | 18/06/2026  | René Pérez - Líder    | Semana dos Análisis del problema         |
 | 25/06/2026  | René Pérez - Líder    | Semana tres Diseño de la solución        |
+| 01/07/2026  | René Pérez - Líder    | Semana cuatro Implementación             |
+
+
 
