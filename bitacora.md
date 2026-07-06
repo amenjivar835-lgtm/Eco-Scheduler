@@ -78,6 +78,18 @@
 - Configurar proyecto local y crear plantillas base de funciones lambda
 - Preparar hoja de cálculo para registros de costos y ahorro
 
+## Semana 5 - Fase 2: Función de apagado
+
+**Fecha:**  07 de julio de 2026
+
+### Actividades realizadas:
+- Reunión de seguimiento
+- Revisión de código y logs 
+- Validar instancias que se puedan detener correctamente
+- Revisar y ajustar políticas IAM
+- Desarrollo de la función Lambda de Stop
+- Manejar errores comunes y probar la función
+- Registrar tiempos de ejecución y primeros cálculos de ahorro
 
 ---
 
@@ -88,6 +100,6 @@
 | 18/06/2026  | René Pérez - Líder    | Semana dos Análisis del problema         |
 | 25/06/2026  | René Pérez - Líder    | Semana tres Diseño de la solución        |
 | 01/07/2026  | René Pérez - Líder    | Semana cuatro Implementación             |
-
+| 07/07/2026  | René Pérez - Líder    | Semana cinco Función de apagado          |
 
 
