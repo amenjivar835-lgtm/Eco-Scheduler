@@ -91,6 +91,18 @@
 - Manejar errores comunes y probar la función
 - Registrar tiempos de ejecución y primeros cálculos de ahorro
 
+## Semana 6 - Fase 2: Función de encendido
+
+**Fecha:**  11 de julio de 2026
+
+### Actividades realizadas:
+- Reunión de seguimiento
+- Validar funcionamiento completo de Start 
+- Revisar configuración general
+- Desarrollo de la función Lambda de Start
+- Probar secuencia completa de Stop-Start
+- Actualizar métricas de ahorro con datos de pruebas reales
+
 ---
 
 **Registro de Cambios:**
@@ -101,5 +113,5 @@
 | 25/06/2026  | René Pérez - Líder    | Semana tres Diseño de la solución        |
 | 01/07/2026  | René Pérez - Líder    | Semana cuatro Implementación             |
 | 07/07/2026  | René Pérez - Líder    | Semana cinco Función de apagado          |
-
+| 11/07/2026  | René Pérez - Líder    | Semana cinco Función de encendido        |
 
