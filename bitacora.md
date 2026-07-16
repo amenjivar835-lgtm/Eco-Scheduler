@@ -3,7 +3,7 @@
 ## Información General
 - **Proyecto:** Eco-Scheduler – Optimización de Energía Cloud
 - **Cliente:** AARD – Agencia de Administración y Recursos Digitales
-- **Equipo:** René Ovidio Pérez Ramírez, Yolanda Marisol Alvarenga Jacobo, Adonay Jeshua Menjívar Martínez, José Jafet Hernández Ortiz, Carlos Alberto Córdova Román
+- **Equipo:** René Ovidio Pérez Ramírez, Yolanda Marisol Alvarenga Jacobo, Adonay Jeshua Menjívar Martínez, José Jafet Hernández Ortiz
 - **Duración:** 10 semanas
 - **Repositorio:** GitHub y Google Drive
 
