@@ -103,6 +103,19 @@
 - Probar secuencia completa de Stop-Start
 - Actualizar métricas de ahorro con datos de pruebas reales
 
+## Semana 7 - Fase 3: Programación y Monitoreo
+
+**Fecha:**  20 de julio de 2026
+
+### Actividades realizadas:
+- Reunión de seguimiento
+- Configurar reglas de EventBridge
+- Integrar las funciones Lambda con EventBridge
+- Mejorar Logging y preparar pruebas completas
+- Preparar matriz de pruebas con escenarios
+- Registrar resultados de ejecución automática
+
+
 ---
 
 **Registro de Cambios:**
@@ -113,5 +126,6 @@
 | 25/06/2026  | René Pérez - Líder    | Semana tres Diseño de la solución        |
 | 01/07/2026  | René Pérez - Líder    | Semana cuatro Implementación             |
 | 07/07/2026  | René Pérez - Líder    | Semana cinco Función de apagado          |
-| 11/07/2026  | René Pérez - Líder    | Semana cinco Función de encendido        |
+| 11/07/2026  | René Pérez - Líder    | Semana seis Función de encendido         |
+| 20/07/2026  | René Pérez - Líder    | Semana siete Programación y monitoreo    |
 
