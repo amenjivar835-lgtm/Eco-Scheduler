@@ -6,11 +6,11 @@ from botocore.exceptions import ClientError
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
+# OPTIMIZACIÓN 1: Inicializar el cliente fuera del handler para reutilizar la conexión
+ec2 = boto3.client('ec2')
+
 def lambda_handler(event, context):
     logger.info("Iniciando ejecución de stop_instances (Apagado fin de jornada)")
-    
-    # Inicializar cliente de EC2
-    ec2 = boto3.client('ec2')
     
     try:
         # Filtros: Etiqueta EcoScheduler=True y estado running
@@ -19,13 +19,16 @@ def lambda_handler(event, context):
             {'Name': 'instance-state-name', 'Values': ['running']}
         ]
         
-        # Buscar instancias que cumplan los criterios
-        respuesta = ec2.describe_instances(Filters=filtros)
         instancias_elegibles = []
         
-        for reserva in respuesta['Reservations']:
-            for instancia in reserva['Instances']:
-                instancias_elegibles.append(instancia['InstanceId'])
+        # OPTIMIZACIÓN 2: Uso de paginador para manejar escenarios con cientos de instancias
+        paginador = ec2.get_paginator('describe_instances')
+        paginas = paginador.paginate(Filters=filtros)
+        
+        for pagina in paginas:
+            for reserva in pagina['Reservations']:
+                for instancia in reserva['Instances']:
+                    instancias_elegibles.append(instancia['InstanceId'])
                 
         # Validar si hay recursos objetivo
         if not instancias_elegibles:
@@ -46,8 +49,12 @@ def lambda_handler(event, context):
         }
         
     except ClientError as e:
-        logger.error(f"Error crítico de permisos IAM o AWS: {e}")
-        return {'statusCode': 500, 'body': 'Error de permisos al intentar apagar instancias.'}
+        # OPTIMIZACIÓN 3: Captura de código de error exacto de AWS
+        codigo_error = e.response['Error']['Code']
+        mensaje_error = e.response['Error']['Message']
+        logger.error(f"Error crítico de AWS ({codigo_error}): {mensaje_error}")
+        return {'statusCode': 500, 'body': f'Error en la operación: {codigo_error}'}
+        
     except Exception as e:
         logger.error(f"Error inesperado: {str(e)}")
         return {'statusCode': 500, 'body': 'Error interno en la ejecución.'}
