@@ -3,7 +3,7 @@
 ## Información General
 - **Proyecto:** Eco-Scheduler – Optimización de Energía Cloud
 - **Cliente:** AARD – Agencia de Administración y Recursos Digitales
-- **Equipo:** René Ovidio Pérez Ramírez, Yolanda Marisol Alvarenga Jacobo, Adonay Jeshua Menjívar Martínez, José Jafet Hernández Ortiz, Carlos Alberto Córdova Román
+- **Equipo:** René Ovidio Pérez Ramírez, Yolanda Marisol Alvarenga Jacobo, Adonay Jeshua Menjívar Martínez, José Jafet Hernández Ortiz
 - **Duración:** 10 semanas
 - **Repositorio:** GitHub y Google Drive
 
@@ -78,6 +78,43 @@
 - Configurar proyecto local y crear plantillas base de funciones lambda
 - Preparar hoja de cálculo para registros de costos y ahorro
 
+## Semana 5 - Fase 2: Función de apagado
+
+**Fecha:**  07 de julio de 2026
+
+### Actividades realizadas:
+- Reunión de seguimiento
+- Revisión de código y logs 
+- Validar instancias que se puedan detener correctamente
+- Revisar y ajustar políticas IAM
+- Desarrollo de la función Lambda de Stop
+- Manejar errores comunes y probar la función
+- Registrar tiempos de ejecución y primeros cálculos de ahorro
+
+## Semana 6 - Fase 2: Función de encendido
+
+**Fecha:**  11 de julio de 2026
+
+### Actividades realizadas:
+- Reunión de seguimiento
+- Validar funcionamiento completo de Start 
+- Revisar configuración general
+- Desarrollo de la función Lambda de Start
+- Probar secuencia completa de Stop-Start
+- Actualizar métricas de ahorro con datos de pruebas reales
+
+## Semana 7 - Fase 3: Programación y Monitoreo
+
+**Fecha:**  20 de julio de 2026
+
+### Actividades realizadas:
+- Reunión de seguimiento
+- Configurar reglas de EventBridge
+- Integrar las funciones Lambda con EventBridge
+- Mejorar Logging y preparar pruebas completas
+- Preparar matriz de pruebas con escenarios
+- Registrar resultados de ejecución automática
+
 
 ---
 
@@ -88,6 +125,7 @@
 | 18/06/2026  | René Pérez - Líder    | Semana dos Análisis del problema         |
 | 25/06/2026  | René Pérez - Líder    | Semana tres Diseño de la solución        |
 | 01/07/2026  | René Pérez - Líder    | Semana cuatro Implementación             |
-
-
+| 07/07/2026  | René Pérez - Líder    | Semana cinco Función de apagado          |
+| 11/07/2026  | René Pérez - Líder    | Semana seis Función de encendido         |
+| 20/07/2026  | René Pérez - Líder    | Semana siete Programación y monitoreo    |
 
