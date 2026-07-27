@@ -116,6 +116,17 @@
 - Registrar resultados de ejecución automática
 
 
+## Semana 8 - Fase 3: Optimización y Análisis
+
+**Fecha:**  27 de julio de 2026
+### Actividades realizadas:
+- Reunión de seguimiento
+- Revisión final de pruebas
+- Optimizar reglas de EventBridge
+- Validar permisos IAM y Monitoreo en Cloudwatch
+- Realización de pruebas completas de las funciones (escenarios de error, exclusiones, estado de instancias)
+- Ejectutar matriz de pruebas, calcular ahorro real con datos de ejecución automática
+
 ---
 
 **Registro de Cambios:**
@@ -128,4 +139,4 @@
 | 07/07/2026  | René Pérez - Líder    | Semana cinco Función de apagado          |
 | 11/07/2026  | René Pérez - Líder    | Semana seis Función de encendido         |
 | 20/07/2026  | René Pérez - Líder    | Semana siete Programación y monitoreo    |
-
+| 27/07/2026  | René Pérez - Líder    | Semana ocho Optimización y Análisis      |
